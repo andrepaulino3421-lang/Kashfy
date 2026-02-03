@@ -1,0 +1,6 @@
+.tGrid{
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px){
+  .tGrid{ grid-template-columns: repeat(3, 1fr); }
+}
